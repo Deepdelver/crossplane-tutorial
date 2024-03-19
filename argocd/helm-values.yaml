@@ -12,7 +12,7 @@ server:
     enabled: true
     ingressClassName: nginx
     hosts:
-      - argocd.127.0.0.1.nip.io
+      - argocd.rancher.hsh
   extraArgs:
     - --insecure
 
